@@ -5,7 +5,7 @@ import (
 )
 
 func Test_GetHelloWorld(t *testing.T) {
-	if GetHelloWorld != "hello world" {
+	if GetHelloWorld() != "hello world" {
 		t.Logf("failed")
 	}
 }
